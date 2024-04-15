@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.icon{
+    height:24px;
+    width:24px;
+    stroke: rgb(0,158,185);
+
+}
+.bt{
+    border: 1px solid rgb(0,158,185);
+    padding:10px;
+    height: 48px;
+    width:48px;
+    border-radius: 250%;
+    background: none;
+}
+.bt:hover{
+    background-color: rgb(0,158,185);
+    
+}
+.bt:hover.icon{
+    stroke: white;
+
+}
+.page{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    height: 48px ;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page:hover{
+    background-color: rgb(0,158,185);
+}
+.pagination{
+    display: flex;
+    gap:15px;
+    align-content: center;
+}
+
+
+
